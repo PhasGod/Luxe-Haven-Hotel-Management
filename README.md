@@ -86,33 +86,34 @@ Booking Managment Hotel/
 
 #### 1.Tải dự án về máy
 
-git clone https://github.com/PhasGod/Luxe-Haven-Hotel-Management.git
-cd "Booking Managment Hotel"
+- git clone https://github.com/PhasGod/Luxe-Haven-Hotel-Management.git
+- cd "Booking Managment Hotel"
 
 #### 2.Cài đặt các thư viện phụ thuộc (Dependencies)
 
  Cài đặt cho Backend
-cd backend
-npm install
+- cd backend
+- npm install
 
  Cài đặt cho Frontend
-cd ../frontend
-npm install
+- cd ../frontend
+- npm install
 
 #### 3.Khởi tạo Cơ sở dữ liệu
 
-Mở SQL Server Management Studio (SSMS).
+- Mở SQL Server Management Studio (SSMS).
 
-Tạo một database mới tên là LuxeHaven.
+- Tạo một database mới tên là LuxeHaven.
 
-Mở và chạy toàn bộ nội dung file database/schema.sql để sinh các bảng và dữ liệu mẫu.
+- Mở và chạy toàn bộ nội dung file database/schema.sql để sinh các bảng và dữ liệu mẫu.
 
 #### 4.Cấu hình file Môi trường
 
-Tạo một file tên là .env nằm bên trong thư mục backend/.
+- Tạo một file tên là .env nằm bên trong thư mục backend/.
 
-Cấu hình nội dung kết nối trong file:
+- Cấu hình nội dung kết nối trong file:
 
+``` text
 {
   "PORT": 3000,
   "DB_USER": "sa",
@@ -121,16 +122,17 @@ Cấu hình nội dung kết nối trong file:
   "DB_NAME": "LuxeHaven",
   "JWT_SECRET": "ChuoiBiMatKyNhanTokenLuxeHaven2026"
 }
+```
 
 #### 5.Khởi chạy ứng dụng
 
-Mở Terminal tại thư mục backend/ và gõ lệnh bật server:
+- Mở Terminal tại thư mục backend/ và gõ lệnh bật server:
 
-node server.js
+* node server.js
 
-Mở một Terminal khác để public cổng bằng Ngrok:
+- Mở một Terminal khác để public cổng bằng Ngrok:
 
 
-ngrok http 3000
+* ngrok http 3000
 
-Mở trình duyệt tại đường link Ngrok cấp kèm hậu tố /login.html (Ví dụ: https://scrutiny-theme-theme.ngrok-free.dev/login.html) để trải nghiệm hệ thống!
+- Mở trình duyệt tại đường link Ngrok cấp kèm hậu tố /login.html (Ví dụ: https://scrutiny-theme-theme.ngrok-free.dev/login.html) để trải nghiệm hệ thống!
