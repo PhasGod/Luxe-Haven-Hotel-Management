@@ -91,15 +91,15 @@ cd "Booking Managment Hotel"
 
 #### 2.Cài đặt các thư viện phụ thuộc (Dependencies)
 
-# Cài đặt cho Backend
+ Cài đặt cho Backend
 cd backend
 npm install
 
-# Cài đặt cho Frontend
+ Cài đặt cho Frontend
 cd ../frontend
 npm install
 
-### 3.Khởi tạo Cơ sở dữ liệu
+#### 3.Khởi tạo Cơ sở dữ liệu
 
 Mở SQL Server Management Studio (SSMS).
 
@@ -107,7 +107,7 @@ Tạo một database mới tên là LuxeHaven.
 
 Mở và chạy toàn bộ nội dung file database/schema.sql để sinh các bảng và dữ liệu mẫu.
 
-### 4.Cấu hình file Môi trường
+#### 4.Cấu hình file Môi trường
 
 Tạo một file tên là .env nằm bên trong thư mục backend/.
 
@@ -122,7 +122,7 @@ Cấu hình nội dung kết nối trong file:
   "JWT_SECRET": "ChuoiBiMatKyNhanTokenLuxeHaven2026"
 }
 
-### 5.Khởi chạy ứng dụng
+#### 5.Khởi chạy ứng dụng
 
 Mở Terminal tại thư mục backend/ và gõ lệnh bật server:
 
